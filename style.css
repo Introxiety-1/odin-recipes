@@ -2,13 +2,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .header {
     background-color: orangered;
     padding: 10px;
     margin:0;
     border-bottom: solid rgb(211, 206, 206) 2px;
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -32,7 +33,7 @@ body {
 }
 
 .pic:hover {
-    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
 }
 
 

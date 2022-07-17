@@ -4,13 +4,52 @@
     <head>
         <meta charset="UTF-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-        <li><a href="recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="recipes/summer-grill-pork-chops.html">Summer grill pork chops</a></li>
-        <li><a href="recipes/butter-beef.html">Butter beef</a></li>
-        </ul>
+        
+        <h1 class="header">odin recipes</h1>
+        <div id="container">
+            <div class="container lasagna">
+                <a href="recipes/lasagna.html">
+                <img src="images/lasagna.jpg" alt="lasagna" class="pic lasagna"></a>
+                <p class="text lasagna"><a href="recipes/lasagna.html">Lasagna</a></p>
+                <div id="rating">
+                    <span class="fa fa-star checked first"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class=    "fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <p id="author">by Kristy</p>
+            </div>
+            <div class="container pork">
+                <a href="recipes/summer-grill-pork-chops.html">
+                <img src="images/porkchop.jpg" alt="lasagna" class="pic pork"></a>
+                <p class="text lasagna"><a href="recipes/lasagna.html">Pork chop</a></p>
+                <div id="rating">
+                    <span class="fa fa-star checked first"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p id="author">by Amelia</p>
+            </div>
+            <div class="container beef">
+                <a href="recipes/butter-beef.html">
+                <img src="images/butter-beef.jpg" alt="lasagna" class="pic beef"></a>
+                <p class="text lasagna"><a href="recipes/lasagna.html">Butter beef</a></p>
+                <div id="rating">
+                    <span class="fa fa-star checked first"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star "></span>
+                </div>
+                <p id="author">by Mark</p>
+            </div>
+        </div>
     </body>
 </html>

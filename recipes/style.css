@@ -4,8 +4,10 @@ body {
 }
 
 #container {
-    margin: 10px;
+    margin: 15px 150px;
+
 }
+
 
 #header a {
     margin-left: 75%;
@@ -15,7 +17,19 @@ body {
     font-weight: bold;
     color: white;
     padding: 0;
+    text-decoration: none;
  }
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+#header a:hover {
+    text-decoration: underline;
+}
  
  #header {
      background-color: orangered;
@@ -39,4 +53,36 @@ h1 {
 
 #rating {
     margin-left: 10px;
+}
+
+.pic.lasagna{
+    margin-top: 5px;
+}
+
+.description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.more {
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    text-decoration: none;
+}
+
+.more:hover{
+    text-decoration: underline;
 }
